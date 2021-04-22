@@ -1,0 +1,9 @@
+.places__link {
+    color: #FFFFFF;
+    transition: opacity 0.4s linear;
+}
+
+.places__link:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

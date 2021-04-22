@@ -1,0 +1,19 @@
+.places__conteiner {
+    display: flex;
+}
+
+
+
+.places__conteiner-1 {
+    padding-bottom: 48px;
+}
+
+@media screen and (max-width: 767px) {
+	.places__conteiner {
+        flex-direction: column;
+    }
+
+    .places__conteiner-1 {
+        padding-bottom: 0;
+    }
+}

@@ -1,0 +1,27 @@
+.cover__subtitle {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    margin-top: 10px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 1281px) {
+    .cover__subtitle {
+        font-size: calc(1em + 1vw);
+    }
+}
+
+@media screen and (max-width: 767px) {
+	.cover__subtitle  {
+        top: 72%;
+        font-size: calc(0.8em + 0.1vw);
+    }
+}

@@ -1,0 +1,16 @@
+.cover__background {
+    max-width: 100%;
+    opacity: 0.8;
+    transition: opacity 0.4s linear;
+}
+
+.cover__background:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 1281px) {
+    .cover__background {
+        min-width: 100%;
+    }
+}

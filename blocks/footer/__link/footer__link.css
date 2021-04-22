@@ -1,0 +1,38 @@
+.footer__link {
+    margin-left: 18px;
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.12;
+    color: #FFFFFF;
+    transition: opacity 0.4s linear;
+}
+
+.footer__link:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 1281px) {
+    .footer__link {
+        font-size: calc(1em + 0.1vw);
+    }
+}
+
+@media screen and (max-width: 767px) {
+	.footer__link {
+        margin-left: 0;
+        margin-bottom: 32px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+	.footer__links {
+        margin-bottom: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
