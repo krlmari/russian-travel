@@ -25,7 +25,8 @@
 	.footer__link {
         margin-left: 0;
         margin-bottom: 32px;
-        font-size: 30px;
+        font-size: 26px;
+    	width: 100px;
     }
 }
 
